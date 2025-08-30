@@ -1,0 +1,158 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: black;
+  color: white;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+
+.nav_bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  gap: 1.5rem;
+  position: sticky;
+  top: 0px;
+
+  font-size: 15px;
+}
+.logo{
+  width: 15%;
+  background-color: yellowgreen;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.seller{
+  width: 15%;
+  background-color: rebeccapurple;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+
+.search{
+  width: calc(100% - 30%);
+  background-color: blue;
+  padding: 10px;
+  border-radius: 10px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 15px;
+ 
+
+}
+
+.side_bar{
+  width: 15%;
+  height: 80vh;
+  background-color: rgb(212, 0, 255);
+  border-radius: 10px;
+   position: sticky;
+  top: 72px;
+
+}
+
+.post_section{
+ width: calc(100% - 45%);
+ 
+  background-color: brown;
+  border-radius: 10px;
+}
+.right_bar{
+  width: 15%;
+  background-color: rgb(212, 0, 255);
+  height: 80vh;
+  border-radius: 10px;
+   position: sticky;
+  top: 72px;
+
+}
+
+.side_bar_contant{
+  width: 80vh;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  flex-direction: column;
+}
+
+.side_bar_contant .items{
+  padding: 15px;
+}
+
+.side_bar_contant .icons{
+  margin-right: 5px;
+}
+
+.post_container .auther .img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.post_container{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.post_img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.post_img img{
+  height: 350px;
+  width: 650px;
+  border-radius: 10px;
+  border: 1px solid aqua;
+}
+
+.post_container .auther .img img{
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  border: 2px solid yellowgreen;
+  
+}
+
+.auther{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.person{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.likes_coment{
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 1rem;
+}
+
+.likes_coment .items{
+  margin-right: 5px;
+}
+
