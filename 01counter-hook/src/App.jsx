@@ -24,7 +24,12 @@ function App() {
 
   // Adding value
   const addvalue = () => {
-    counter >= 20 ? "stop" : setCounter(counter + 1); // logic to increase but not >20
+    //counter >= 20 ? "stop" : setCounter(counter + 1); // logic to increase but not >20
+     
+    // ye internal callback function rkhtahe , jo initial value ko leta he 
+    setCounter(prevCount => prevCount+1)
+    setCounter(prevCount => prevCount+1)
+    setCounter(prevCount => prevCount+1)
   };
 
   //Remove Value
